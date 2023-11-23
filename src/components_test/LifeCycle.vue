@@ -11,7 +11,10 @@
             }
         },
         created(){
-
+            this.name = "Anderson LifeCycle";
+        },
+        mounted(){
+            this.name = "Anderson mounted"
         }
     }
 

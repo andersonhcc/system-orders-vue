@@ -1,21 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 import LifeCycle from './components_test/LifeCycle.vue';
+import People from './components_test/People.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
     <LifeCycle />
-    <TheWelcome />
+    <People />
   </main>
 </template>
 
